@@ -73,7 +73,7 @@ void main()
 ### 수정된 코드
 ```c
 #include <cs50.h>
-#include <stdion.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -99,7 +99,7 @@ void main()
 ### 수정된 코드
 ```c
 #include <cs50.h>
-#include <stdion.h>
+#include <stdio.h>
 
 int main(void)
 {
