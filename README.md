@@ -18,7 +18,7 @@
 
 ### 📚 추천 학습 자료
 - [CS50 (하버드 무료 강의)](https://cs50.harvard.edu/x/) — 컴퓨터 과학 기초
-- [코딩 웹](https://www.onlinegdb.com/)
+- [깃허브 코딩([https://www.onlinegdb.com/](https://obscure-goggles-r59jw6wgp7gf59v9.github.dev/?autoStart=true&folder=%2Fworkspaces%2F105197503&vscodeChannel=stable))
 - Python 입문
   - [점프 투 파이썬](https://wikidocs.net/book/1) (한국어 무료)
   - [파이썬 프로그래밍 기초 by 생활코딩](https://opentutorials.org/course/1750)
