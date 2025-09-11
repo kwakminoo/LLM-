@@ -1,3 +1,4 @@
+# 문자열 포맷팅 예제
 number = 3
 month = 12
 day = "two"
@@ -16,3 +17,7 @@ print(c)
 
 d = f"{one}까진 {t} {th}".format(one = 1, t = "까진", th = "할만한데?")
 print(d)
+
+# 문자열 슬라이싱 예제
+e = "나는 생각한다, 고로 존재한다."
+print(e[0:0:1])
