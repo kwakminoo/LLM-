@@ -11,6 +11,9 @@ a, b = map(int, input().split())
 //if문의 문법은 이런 형식이고 ()대신 끝에 : 가 붙는다
 if a < 10 and b < 10:
     print(a * b)
+    // 나누기에서 /는 실수로 출력하고 //는 정수로 출력한다.
+    print(a // b)
 else:
     print("수를 다시 입력하세요")
 ~~~
+
