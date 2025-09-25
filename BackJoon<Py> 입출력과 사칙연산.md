@@ -68,3 +68,4 @@ for r in result:
 //마지막은 단순하니까 그냥 num2를 인트로 변환해서 처리.
 print(num1 * int(num2))
 ~~~
+
