@@ -180,3 +180,49 @@ else:
     print(max(a, b, c) * 100)
 ~~~
 
+반복문
+=
+
+### 구구단
+~~~
+n = int(input())
+
+// 파이썬에서는 range를 씀
+for i in range(1, 10):
+    //f는 format의 최신버전 사용법으로 f"내용" 이런식으로 적으면 안에 따로 선언을 안해도 자동적으로 {}안에 변수의 값이 출력됨
+    print(f"{n} * {i} = { n * i}")
+~~~
+
+### 테스트 출력
+~~~
+t = int(input())
+
+// 파이썬에서 for문을 사용할 때는 i등의 변수가 들어가는데 그 변수가 필요 없을 경우 관습적으로 _를 넣는다
+for _ in range(t)
+    a, b = map(int, input().split())
+    print(a + b)
+~~~
+
+### 합
+~~~
+n = int(input())
+total = 0
+
+//파이썬은 0 < i < 10형식이 아니라 10, 10이런 형식임 
+for i in range(1, n+1):
+    total += i
+
+//total 바로 밑에 출력하면 for문이라 계속 출력되서 한번만 출력되기 위해 따로 출력
+print(total)
+
+or
+
+n = int(input())
+//이런 수학 공식을 이용해서도 가능
+print(n * (n+1) // 2)
+~~~
+
+### 
+~~~
+
+~~~
