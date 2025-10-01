@@ -222,7 +222,45 @@ n = int(input())
 print(n * (n+1) // 2)
 ~~~
 
-### 
+### 영수증
 ~~~
+x = int(input())
+n = int(input())
+total = 0
+
+for _ in range(n):
+    a, b = map(int, input().split())
+    total += a * b
+
+// 정수값을 비교할 때는 == 를 써야한다
+if total == x:
+    print("Yes")
+else:
+    print("No")
+~~~
+
+### 코딩은 체육과목 입니다
+~~~
+n = int(input())
+
+//그냥 /를 쓰면 값이 실수(float)으로 나온다 정수로 나올려면 //를 써야한다.
+longN = n // 4
+print("long " * longN + "int")
+~~~
+
+### 빠른 A + B
+~~~
+//파이썬 표준 라이브러리를 가져옴
+import sys
+input = sys.stdin.readline
+
+t = int(input())
+out_lines = []
+
+for _ in range(t):
+    a, b = map(int, input().split())
+    out_lines.append(str(a + b))
+    
+sys.stdout.write("\n".join(out_lines))
 
 ~~~
